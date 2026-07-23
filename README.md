@@ -1,8 +1,8 @@
-# System Vision
+# Saliou Vision
 
 ## Purpose
 
-Sirrah Vision is an embedded vision application for Raspberry Pi 5. It detects a beacon made of four LEDs and calculates its direction relative to the camera.
+Saliou Vision is an embedded vision application for Raspberry Pi 5. It detects a beacon made of four LEDs and calculates its direction relative to the camera.
 
 In practical terms, the system captures a raw image, detects the visible LEDs, calculates the beacon centre, calculates its horizontal and vertical angles, estimates its distance when at least three LEDs are visible, and sends the result to the maintenance application over TCP.
 
