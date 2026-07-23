@@ -1,0 +1,13 @@
+Source: rawcapture
+Section: misc
+Priority: optional
+Maintainer: Saliou Diop <serignekhadiba@gmail.com>
+Build-Depends: debhelper (>= 10), meson, ninja-build, pkg-config, libcamera-dev
+Standards-Version: 4.5.0
+
+Package: rawcapture
+Architecture: arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: RAW image capture tool for Global Shutter camera
+ RawCaptureWithConfig allows configuration and capture of raw images
+ from a Global Shutter camera, with adjustable camera parameters.

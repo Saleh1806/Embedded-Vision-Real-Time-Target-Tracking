@@ -1,0 +1,18 @@
+[binaries]
+c = 'aarch64-linux-gnu-gcc'
+cpp = 'aarch64-linux-gnu-g++'
+ar = 'aarch64-linux-gnu-ar'
+strip = 'aarch64-linux-gnu-strip'
+pkg-config = '/mnt/c/Arck_Sensor/src/sirrah_vision/Sirrah_Camera/rpi5_cross/project/SIRRAH_CAMERA/pkg-config-wrapper.sh'
+
+[host_machine]
+system = 'linux'
+cpu_family = 'aarch64'
+cpu = 'cortex-a76'
+endian = 'little'
+
+[built-in options]
+# Sysroot is computed relative to this repo location under Windows (/mnt/c/...).
+# Adjust if you move the rpi5_cross folder.
+c_args = ['--sysroot=/mnt/c/Arck_Sensor/src/sirrah_vision/Sirrah_Camera/rpi5_cross/sysroot']
+cpp_args = ['--sysroot=/mnt/c/Arck_Sensor/src/sirrah_vision/Sirrah_Camera/rpi5_cross/sysroot']

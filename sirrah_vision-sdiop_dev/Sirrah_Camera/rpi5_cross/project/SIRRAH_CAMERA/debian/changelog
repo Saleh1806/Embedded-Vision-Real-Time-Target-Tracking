@@ -1,0 +1,6 @@
+rawcapture (1.0.0) stable; urgency=medium
+
+  * Première version stable de RawCaptureWithConfig
+  * Support complet libcamera et post-install automatique
+
+ -- Saliou Diop <serignekhadiba@gmail.com>  Mon, 27 Oct 2025 18:00:00 +0100

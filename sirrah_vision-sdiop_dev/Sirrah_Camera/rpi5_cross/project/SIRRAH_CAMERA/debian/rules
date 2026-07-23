@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+# Debian rules file for building with Meson
+
+export DH_VERBOSE = 1
+
+# ✅ Force usage of Meson 1.9.1 (user install)
+export PATH := $(HOME)/.local/bin:$(PATH)
+export MESON = $(HOME)/.local/bin/meson
+
+%:
+	dh $@ --buildsystem=meson --with=ninja
+

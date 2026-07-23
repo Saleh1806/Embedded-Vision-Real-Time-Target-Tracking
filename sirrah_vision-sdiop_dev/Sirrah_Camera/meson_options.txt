@@ -1,0 +1,2 @@
+option('enable_tests', type: 'boolean', value: false, description: 'Build unit tests (requires gtest)')
+option('enable_camera_acquisition', type: 'boolean', value: false, description: 'Build RawCapture (requires libcamera)')
